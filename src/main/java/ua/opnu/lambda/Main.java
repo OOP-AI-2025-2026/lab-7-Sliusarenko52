@@ -54,7 +54,7 @@ public class Main {
         return res;
     }
 
-    // Завд. 4 - Consumer: вивід студентів
+    // Завд. 4 - consumer: вивід студентів
     static Consumer<Student> printFullName = s ->
             System.out.println(s.getName() + " " + s.getGroup());
 
